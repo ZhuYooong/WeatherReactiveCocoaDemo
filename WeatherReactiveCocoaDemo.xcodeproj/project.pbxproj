@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045DCA3B1C8D77670000A241 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = 045DCA3A1C8D77670000A241 /* Weather.m */; };
 		04CEED2B1C897FCD00588CEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEED2A1C897FCD00588CEF /* main.m */; };
 		04CEED2E1C897FCD00588CEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEED2D1C897FCD00588CEF /* AppDelegate.m */; };
 		04CEED311C897FCD00588CEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEED301C897FCD00588CEF /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		045DCA391C8D77670000A241 /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
+		045DCA3A1C8D77670000A241 /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weather.m; sourceTree = "<group>"; };
 		04CEED261C897FCD00588CEF /* WeatherReactiveCocoaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherReactiveCocoaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CEED2A1C897FCD00588CEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04CEED2C1C897FCD00588CEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -83,6 +86,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		045DCA381C8D77200000A241 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04CEED321C897FCD00588CEF /* Main.storyboard */,
+				045DCA391C8D77670000A241 /* Weather.h */,
+				045DCA3A1C8D77670000A241 /* Weather.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		045DCA3C1C8D78F70000A241 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04CEED2F1C897FCD00588CEF /* ViewController.h */,
+				04CEED301C897FCD00588CEF /* ViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		045DCA3D1C8D790D0000A241 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
 		04CEED1D1C897FCD00588CEF = {
 			isa = PBXGroup;
 			children = (
@@ -108,14 +137,9 @@
 		04CEED281C897FCD00588CEF /* WeatherReactiveCocoaDemo */ = {
 			isa = PBXGroup;
 			children = (
-				04CEED2C1C897FCD00588CEF /* AppDelegate.h */,
-				04CEED2D1C897FCD00588CEF /* AppDelegate.m */,
-				04CEED2F1C897FCD00588CEF /* ViewController.h */,
-				04CEED301C897FCD00588CEF /* ViewController.m */,
-				04CEED321C897FCD00588CEF /* Main.storyboard */,
-				04CEED351C897FCD00588CEF /* Assets.xcassets */,
-				04CEED371C897FCD00588CEF /* LaunchScreen.storyboard */,
-				04CEED3A1C897FCD00588CEF /* Info.plist */,
+				045DCA381C8D77200000A241 /* Model */,
+				045DCA3C1C8D78F70000A241 /* View */,
+				045DCA3D1C8D790D0000A241 /* ViewModel */,
 				04CEED291C897FCD00588CEF /* Supporting Files */,
 			);
 			path = WeatherReactiveCocoaDemo;
@@ -124,6 +148,11 @@
 		04CEED291C897FCD00588CEF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04CEED2C1C897FCD00588CEF /* AppDelegate.h */,
+				04CEED2D1C897FCD00588CEF /* AppDelegate.m */,
+				04CEED351C897FCD00588CEF /* Assets.xcassets */,
+				04CEED371C897FCD00588CEF /* LaunchScreen.storyboard */,
+				04CEED3A1C897FCD00588CEF /* Info.plist */,
 				04CEED2A1C897FCD00588CEF /* main.m */,
 			);
 			name = "Supporting Files";
@@ -329,6 +358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045DCA3B1C8D77670000A241 /* Weather.m in Sources */,
 				04CEED311C897FCD00588CEF /* ViewController.m in Sources */,
 				04CEED2E1C897FCD00588CEF /* AppDelegate.m in Sources */,
 				04CEED2B1C897FCD00588CEF /* main.m in Sources */,
